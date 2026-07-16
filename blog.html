@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweets Chronicle</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="background-image: url(images/backgroundimage.PNG);">
+    <header>
+        <nav class="top-menu">
+            <div class="logo">Sweets<br>Chronicle</div>
+
+            <!-- Mobile Menu Button -->
+            <div class="menu-btn" id="menu-btn">☰</div>
+
+            <ul id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <a href="cart.html" class="cart-link" aria-label="Cart">
+                        <svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M7 4h-2l-1 2h2l3.6 7.6-1.35 2.45
+                                c-.16.28-.25.61-.25.95
+                                0 1.1.9 2 2 2h12v-2h-12
+                                c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45
+                                c.75 0 1.41-.41 1.75-1.03l3.58-6.49
+                                c.08-.14.12-.31.12-.48
+                                0-.55-.45-1-1-1h-16zm0 16
+                                c-1.1 0-1.99.9-1.99 2
+                                s.89 2 1.99 2
+                                2-.9 2-2-.9-2-2-2zm10
+                                0c-1.1 0-1.99.9-1.99 2
+                                s.89 2 1.99 2
+                                2-.9 2-2-.9-2-2-2z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="blog">
+        <h2 class="category-title">カテゴリー</h2>
+
+        <!-- Past -->
+        <section class="blog-section">
+            <div class="image-box">
+                <div class="slider">
+                <img src="Images/pastsweets.jpg" alt="過去のスイーツ1">
+                <img src="Images/pastsweets3.jpg" alt="過去のスイーツ2">
+                <img src="Images/pastsweets7.jpg" alt="過去のスイーツ3">
+                </div>
+                <p class="image-label">過去のスイーツ</p>
+            </div>
+            <div class="text-box">
+                <h3>過去のスイーツ (Past Sweets)</h3>
+                <p>限られた材料と知恵から生まれた、<br>
+                    やさしく懐かしい甘さ。<br>
+                    <strong>**「甘さは心に寄り添うもの」</strong>**という原点を伝えてくれます。
+                </p>
+                <a href="pastsweets.html" class="more-btn">もっと見る</a>
+            </div>
+        </section>
+
+         <!-- Present -->
+         <section class="blog-section">
+            <div class="image-box">
+                <div class="slider">
+                <img src="Images/presentsweets.jpg" alt="現在のスイーツ1">
+                <img src="Images/presentsweets6.jpg" alt="現在のスイーツ2">
+                <img src="Images/presentsweets8.jpg" alt="現在のスイーツ3">
+                </div>
+                <p class="image-label">現在のスイーツ</p>
+            </div>
+            <div class="text-box">
+                <h3>現在のスイーツ (Present Sweets)</h3>
+                <p>多様な文化と技法が交わる“進化のかたち”。<br>
+                    今を楽しむ、自由でカラフルな甘さが広がります。
+                </p>
+                <a href="presentsweets.html" class="more-btn">もっと見る</a>
+            </div>
+        </section>
+        
+        <!-- Future -->
+        <section class="blog-section">
+            <div class="image-box">
+                <div class="slider">
+                <img src="Images/futuresweets.jpg" alt="未来のスイーツ1">
+                <img src="Images/futuresweets6.jpg" alt="未来のスイーツ2">
+                <img src="Images/futuresweets7.jpg" alt="未来のスイーツ3">
+                </div>
+
+                <p class="image-label">未来のスイーツ</p>
+            </div>
+            <div class="text-box">
+                <h3>未来のスイーツ (Future Sweets)</h3>
+                <p>科学とアートが生む“新しい体験”。<br>
+                    食べるから、<strorng>感じる甘さ</strorng>へ。
+                </p>
+                <a href="futuresweets.html" class="more-btn">もっと見る</a>
+            </div>
+        </section>
+    </main>
+    
+    
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-title">Sweets Chronicle</div>
+            <p class="footer-desc">
+                Timeless desserts crafted across eras.  
+                Taste the universe, one story at a time.
+            </p>
+
+            <div class="footer-links">
+              <a href="pastsweets.html">Past Sweets</a>
+                <a href="presentsweets.html">Present Sweets</a>
+                <a href="futuresweets.html">Future Sweets</a>
+            </div>
+
+            <p class="copyright">
+                © 2025 Sweets Chronicle. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("menu-btn");
+    const menu = document.querySelector(".top-menu");
+
+    if (btn && menu) {
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    }
+  });
+</script>
+
+</body>
+</html>

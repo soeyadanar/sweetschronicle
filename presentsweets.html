@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweets Chronicle</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="background-image: url(images/backgroundimage.PNG);">
+    <section class="ordermenupresent">
+       <div class="ordermenu-overlay"></div>
+    <header class="ordermenu-header">
+        <nav class="top-menu">
+            <div class="logo">Sweets<br>Chronicle</div>
+
+            <!-- Mobile Menu Button -->
+            <div class="menu-btn" id="menu-btn">☰</div>
+
+            <ul id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <a href="cart.html" class="cart-link" aria-label="Cart">
+                        <svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M7 4h-2l-1 2h2l3.6 7.6-1.35 2.45
+                                c-.16.28-.25.61-.25.95
+                                0 1.1.9 2 2 2h12v-2h-12
+                                c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45
+                                c.75 0 1.41-.41 1.75-1.03l3.58-6.49
+                                c.08-.14.12-.31.12-.48
+                                0-.55-.45-1-1-1h-16zm0 16
+                                c-1.1 0-1.99.9-1.99 2
+                                s.89 2 1.99 2
+                                2-.9 2-2-.9-2-2-2zm10
+                                0c-1.1 0-1.99.9-1.99 2
+                                s.89 2 1.99 2
+                                2-.9 2-2-.9-2-2-2z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ORDERMENU SECTION -->
+        <div class="ordermenu-content">
+
+            <h2>現代のスイーツ (Present Sweets)</h2> <br><br>
+            <p> 
+                世界中の素材、技法、スタイルが混ざり合った “進化の真ん中”。
+                カフェのトレンド、SNS映え、職人の技…
+                どれも違うけれど、すべては
+                **「もっと美味しく、もっと楽しく」**を求めた結果。
+                今の時代を象徴する、自由でカラフルな甘さがここにあります。
+            </p>
+        </div>
+        </section>
+    <!-- POPULAR TITLE BAR -->
+    <section class="popular-bar">
+        <h2>人気商品</h2>
+        
+        <div class="notice">
+        <p class="inline-text">
+            <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" />
+                <line x1="12" y1="12" x2="7.5" y2="14.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <line x1="12" y1="12" x2="12" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+                火曜日お受け取りのご注文は、日曜日の20時までとさせていただいております。
+        </p>
+        </div>
+        </section>
+        
+        <!-- PRODUCTS -->
+         <section class="products">
+            <div class="product-grid">
+            <!-- 8 PRODUCT BOXES -->
+            <div class="product-card">
+                <img src="Images/presentsweets1.jpg">
+                    <h4 class="product-name">Chocolate Party Plate</h4>
+                    <p class="ingredients">原材料： <br>
+                    チョコレート、ココアパウダー、生クリーム、バター、卵、砂糖、ナッツ類、ベリー類</p>
+                    <p class="product-price">¥1800</p>
+                     <a href="cart.html"
+                    class="cart-btn"
+                    data-id="present01"
+                    data-name="Chocolate Party Plate"
+                    data-price="1800"
+                    data-image="Images/presentsweets1.jpg">カートへ
+                </a>
+                </div>
+
+            <div class="product-card">
+                <img src="Images/presentsweets2.jpg">
+                    <h4 class="product-name">Berry Berry Éclair</h4>
+                    <p class="ingredients">原材料： <br>
+                    小麦粉、バター、卵、砂糖、生クリーム、カスタード、いちご、ブルーベリー、ラズベリー</p>
+                    <p class="product-price">¥1550</p>
+                    <a href="cart.html"
+                    class="cart-btn"
+                    data-id="present02"
+                    data-name="Berry Berry Éclair"
+                    data-price="1550"
+                    data-image="Images/presentsweets2.jpg">カートへ
+                </a>
+                </div>
+
+            <div class="product-card">
+                <img src="Images/presentsweets3.jpg">
+                    <h4 class="product-name">Sweet Treat Board</h4>
+                    <p class="ingredients">原材料： <br>
+                    チョコレート、バター、小麦粉、砂糖、卵、ナッツ、ココア、抹茶</p>
+                    <p class="product-price">¥1470</p>
+                    <a href="cart.html"
+                    class="cart-btn"
+                    data-id="present03"
+                    data-name="Sweet Treat Board"
+                    data-price="1470"
+                    data-image="Images/presentsweets3.jpg">カートへ
+                </a>
+                </div>
+
+            <div class="product-card">
+                <img src="Images/presentsweets4.jpg">
+                    <h4 class="product-name">Strawberry Choco Love</h4>
+                   <p class="ingredients">原材料： <br>
+                     小麦粉、ココア、バター、卵、砂糖、生クリーム、いちご、チョコレート</p>
+                    <p class="product-price">¥1100</p>
+                     <a href="cart.html"
+                    class="cart-btn"
+                    data-id="present04"
+                    data-name="Strawberry Choco Love"
+                    data-price="1100"
+                    data-image="Images/presentsweets4.jpg">カートへ
+                </a>
+            </div>
+
+            <div class="product-card">
+                <img src="Images/presentsweets5.jpg">
+                    <h4 class="product-name">Chocolate Berry Delight</h4>
+                    <p class="ingredients">原材料： <br>
+                    チョコレート、生クリーム、バター、卵、砂糖、いちご、ベリー類 </p>
+                    <p class="product-price">¥1150</p>
+                    <a href="cart.html"
+                    class="cart-btn"
+                    data-id="present05"
+                    data-name="Chocolate Berry Delight"
+                    data-price="1150"
+                    data-image="Images/presentsweets5.jpg">カートへ
+                </a>
+                </div>
+
+            <div class="product-card">
+                <img src="Images/presentsweets6.jpg">
+                    <h4 class="product-name">Tiny Cake Party</h4>
+                    <p class="ingredients">原材料： <br>
+                    小麦粉、アーモンドプードル、卵、砂糖、バター、生クリーム、フルーツ</p>
+                    <p class="product-price">¥1900</p>
+                   <a href="cart.html"
+                    class="cart-btn"
+                    data-id="present06"
+                    data-name="Tiny Cake Party"
+                    data-price="1900"
+                    data-image="Images/presentsweets6.jpg">カートへ
+                </a>
+                </div>
+            
+            <div class="product-card">
+                <img src="Images/presentsweets7.jpg">
+                    <h4 class="product-name">Paradise Fruit Pizza</h4>
+                   <p class="ingredients">原材料： <br>
+                    ピザ生地、ホイップクリーム, ミックスベリー、キウイ、レモン、チョコレート、ミント</p>
+                    <p class="product-price">¥3200></p>
+                    <a href="cart.html"
+                    class="cart-btn"
+                    data-id="present07"
+                    data-name="Paradise Fruit Pizza"
+                    data-price="3200"
+                    data-image="Images/presentsweets7.jpg">カートへ
+                </a>
+                </div>
+
+            <div class="product-card">
+                <img src="Images/presentsweets8.jpg">
+                    <h4 class="product-name">Little Wagashi Garden</h4>
+                    <p class="ingredients">原材料： <br>
+                    上新粉、もち米、砂糖、小豆、寒天、抹茶、黒糖</p>
+                    <p class="product-price">¥1700</p>
+                    <a href="cart.html"
+                    class="cart-btn"
+                    data-id="present08"
+                    data-name="Little Wagashi Garden"
+                    data-price="1700"
+                    data-image="Images/presentsweets8.jpg">カートへ
+                </a>
+                </div>
+        
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-title">Sweets Chronicle</div>
+            <p class="footer-desc">
+                Timeless desserts crafted across eras.
+                Taste the universe, one story at a time.
+            </p>
+
+            <div class="footer-links">
+                <a href="pastsweets.html">Past Sweets</a>
+                <a href="presentsweets.html">Present Sweets</a>
+                <a href="futuresweets.html">Future Sweets</a>
+            </div>
+
+            <p class="copyright">
+                © 2025 Sweets Chronicle. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script src="add-to-cart.js"> </script>
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("menu-btn");
+  const menu = document.querySelector("header nav");
+
+  if (!btn || !menu) return;
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+});
+</script>
+
+</body>
+
+</html>

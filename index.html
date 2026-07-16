@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweets Chronicle</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="background-image: url(images/backgroundimage.PNG);">
+    <header>
+        <nav class="top-menu">
+            <div class="logo">Sweets<br>Chronicle</div>
+
+            <!-- Mobile Menu Button -->
+            <div class="menu-btn" id="menu-btn">☰</div>
+
+            <ul id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <a href="cart.html" class="cart-link" aria-label="Cart">
+                        <svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M7 4h-2l-1 2h2l3.6 7.6-1.35 2.45
+                                c-.16.28-.25.61-.25.95
+                                0 1.1.9 2 2 2h12v-2h-12
+                                c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45
+                                c.75 0 1.41-.41 1.75-1.03l3.58-6.49
+                                c.08-.14.12-.31.12-.48
+                                0-.55-.45-1-1-1h-16zm0 16
+                                c-1.1 0-1.99.9-1.99 2
+                                s.89 2 1.99 2
+                                2-.9 2-2-.9-2-2-2zm10
+                                0c-1.1 0-1.99.9-1.99 2
+                                s.89 2 1.99 2
+                                2-.9 2-2-.9-2-2-2z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1 class="main-title">SWEETS × DESIGN × STORIES × TIME TRAVEL</h1>
+
+        <div class="hero">
+            <img src="image/Cake.PNG" alt="Golden Cake" class="cake-img">
+            <a href="blog.html" class="btn-enter">Enter the Shop</a>
+        </div>
+    </header>
+
+    <section class="about">
+        <h2>ABOUT</h2>
+        <p>
+            This is a place where sweets are more than flavors—they are stories shaped by time.
+            Discover desserts from distant eras, reimagined with design and imagination.
+            Follow the stardust and explore the worlds hidden between timelines.
+        </p>
+
+        <p class="jp">
+            ここでは、スイーツは味覚を超えて、<br>
+            “時間がつくる物語” そのものです。<br>
+            遠い時代から届いた菓子たちを、デザインと想像でよみがえらせました。<br>
+            星屑の道しるべとともに、隠された時間の世界へ——。
+        </p>
+    </section>
+
+    <section class="recommend">
+        <h2>Our Recommendations</h2>
+
+        <div class="items">
+            <div class="item">
+                <div class="label red">Popular Picks</div>
+            
+
+            <div class="slider">
+                <img src="Image/Popular Picks.jpg" alt="Popular1">
+                <img src="Images/futuresweets2.jpg" alt="Popular2">
+                <img src="Images/presentsweets1.jpg" alt="Popular3">
+            </div>
+            </div>
+
+            <div class="item">
+                <div class="label gold">New</div>
+
+            <div class="slider">
+                <img src="Images/presentsweets7.jpg" alt="FreshlyAdded1">
+                <img src="Images/futuresweets4.jpg" alt="FreshlyAdded2">
+                <img src="Images/futuresweets5.jpg" alt="FreshlyAdded3">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-title">Sweets Chronicle</div>
+            <p class="footer-desc">
+                Timeless desserts crafted across eras.
+                Taste the universe, one story at a time.
+            </p>
+
+            <div class="footer-links">
+                <a href="pastsweets.html">Past Sweets</a>
+                <a href="presentsweets.html">Present Sweets</a>
+                <a href="futuresweets.html">Future Sweets</a>
+            </div>
+
+            <p class="copyright">
+                © 2025 Sweets Chronicle. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("menu-btn");
+    const menu = document.querySelector(".top-menu");
+
+    if (!btn || !menu) {
+      console.log("menu-btn or top-menu NOT found");
+      return;
+    }
+
+    btn.addEventListener("click", function () {
+      menu.classList.toggle("active");
+      console.log("clicked");
+    });
+  });
+</script>
+</body>
+</html>
