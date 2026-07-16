@@ -8,14 +8,10 @@
 body {
     font-family: "Times New Roman", serif;
     color: #FFF6EB;
-
-    background-image: url("Images/backgroundimage.png");
-    background-repeat: no-repeat;
-    background-position: center top;
+    background-image: url("Imgaes/backgroundimage.png") no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
-
     min-height: 100vh;
+    
 }
 
 /* ---------- NAVIGATION ---------- */
